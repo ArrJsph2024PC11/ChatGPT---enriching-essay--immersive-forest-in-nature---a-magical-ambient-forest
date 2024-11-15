@@ -4,8 +4,10 @@
     <script>
         document.documentElement.style.transform = `scale(0.3)`
         document.documentElement.style.transformOrigin = '0 0'
-        document.documentElement.style.height = `1000vw`
-        document.body.style.height = `1000vw`
+        document.documentElement.style.height = `1000vh`
+        document.body.style.height = `1000vh`
+        document.documentElement.style.width = `1000vw`
+        document.body.style.width = `1000vw`
             ;[...document.querySelectorAll('div')].filter(a => a.className.includes('react-scroll-to-bottom')).map(a => a.style.height = `1000vw`)
     </script>
     <meta charset="UTF-8" />
